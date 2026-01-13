@@ -47,6 +47,7 @@
 ### Основная целевая переменная
 **Sleep Efficiency**, определяемая как отношение времени сна ко времени, проведённому в постели:
 $SleepEfficiency = TotalMinutesAsleep / TotalTimeInBed$
+
 Дополнительно могут рассматриваться:
 - общее время сна,
 - классификация качества сна (низкое / среднее / высокое).
@@ -63,17 +64,17 @@ $SleepEfficiency = TotalMinutesAsleep / TotalTimeInBed$
 ---
 
 ## 5. Структура проекта
-project/
-│
-├── data/
-│ ├── raw/
-│ │ └── fitabase/ # исходные CSV-файлы
-│ └── processed/ # подготовленные датасеты
-│
-├── notebooks/
-│ ├── 01_import_merge.ipynb # импорт и объединение данных
-│ ├── 02_eda.ipynb # разведочный анализ данных
-│ ├── 03_feature_engineering.ipynb
-│ └── 04_models.ipynb # построение и оценка моделей
-│
-├── README.md
+project/  
+│  
+├── data/  
+│ ├── raw/  
+│ │ └── fitabase/ # исходные CSV-файлы  
+│ └── processed/ # подготовленные датасеты  
+│  
+├── notebooks/  
+│ ├── 01_import_merge.ipynb # импорт и объединение данных  
+│ ├── 02_eda.ipynb # разведочный анализ данных  
+│ ├── 03_feature_engineering.ipynb  
+│ └── 04_models.ipynb # построение и оценка моделей  
+│  
+├── README.md  

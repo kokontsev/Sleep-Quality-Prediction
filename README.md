@@ -1,4 +1,4 @@
-# pip install -r requirements.txt
+# `pip install -r requirements.txt`
 
 # Прогнозирование качества сна на основе данных физической активности
 
